@@ -1,0 +1,4 @@
+name: RestrictionManager
+version: '${project.version}'
+main: fr.k0bus.restrictionmanager.RestrictionManage
+api-version: '1.20'
