@@ -59,6 +59,11 @@
             <id>sonatype</id>
             <url>https://oss.sonatype.org/content/groups/public/</url>
         </repository>
+        <repository>
+            <id>k0bus-repository-spigot</id>
+            <name>K0bus Repository</name>
+            <url>https://maven.k0bus.fr/spigot</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -67,6 +72,31 @@
             <artifactId>paper-api</artifactId>
             <version>1.20.4-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>fr.k0bus</groupId>
+            <artifactId>Commands</artifactId>
+            <version>1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>fr.k0bus</groupId>
+            <artifactId>Configs</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>fr.k0bus</groupId>
+            <artifactId>Menu</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>fr.k0bus</groupId>
+            <artifactId>Utils</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.reflections</groupId>
+            <artifactId>reflections</artifactId>
+            <version>0.10.2</version>
         </dependency>
     </dependencies>
 </project>

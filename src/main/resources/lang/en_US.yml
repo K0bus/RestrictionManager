@@ -1,0 +1,8 @@
+permission:
+  restriction:
+    commands: '&cYou can''t use this command !'
+    place: '&cYou can''t place this block !'
+    break: '&cYou can''t break this block !'
+    item-use: '&cYou can''t use this item !'
+    block-use: '&cYou can''t use this block !'
+    store-item: '&cYou can''t get this item !'

@@ -1,0 +1,34 @@
+plugin:
+  lang: en_US
+  tag: '&fRestrictionManager &7>>'
+  debug-mode: false
+  check-update: true
+
+restrictions:
+  commands:
+    type: BLACKLIST
+    list: []
+  place:
+    type: BLACKLIST
+    list: []
+  break:
+    type: BLACKLIST
+    list: []
+  item-use:
+    type: BLACKLIST
+    list: []
+  block-use:
+    type: BLACKLIST
+    list: []
+  store-item:
+    type: BLACKLIST
+    list: []
+  craft:
+    type: BLACKLIST
+    list: []
+  pickup:
+    type: BLACKLIST
+    list: []
+  drop:
+    type: BLACKLIST
+    list: []
